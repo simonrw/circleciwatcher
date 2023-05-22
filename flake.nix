@@ -26,7 +26,7 @@
 
             CGO_ENABLED = "0";
 
-            vendorHash = "sha256-m5OTb9ugmAczZM/NYH6vnwpDEKVKefOAZY8xAWtezaw=";
+            vendorHash = null;
           };
 
         };
