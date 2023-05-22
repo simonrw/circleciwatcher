@@ -24,7 +24,9 @@
 
             src = ./.;
 
-            vendorHash = null;
+            CGO_ENABLED = "0";
+
+            vendorHash = "sha256-m5OTb9ugmAczZM/NYH6vnwpDEKVKefOAZY8xAWtezaw=";
           };
 
         };
@@ -35,6 +37,8 @@
             buildInputs = with pkgs; [
               go
             ];
+
+            CGO_ENABLED = "0";
           };
         };
       }
