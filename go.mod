@@ -1,3 +1,3 @@
-module github.com/simonrw/circlecicli
+module github.com/simonrw/circleciwatcher
 
 go 1.20

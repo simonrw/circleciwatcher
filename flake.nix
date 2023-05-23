@@ -17,9 +17,9 @@
       in
       {
         packages = rec {
-          default = circlecicli;
-          circlecicli = pkgs.buildGoModule {
-            pname = "circlecicli";
+          default = circleciwatcher;
+          circleciwatcher = pkgs.buildGoModule {
+            pname = "circleciwatcher";
             version = "unstable";
 
             src = ./.;

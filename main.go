@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/simonrw/circlecicli/internal/circleci"
+	"github.com/simonrw/circleciwatcher/internal/circleci"
 )
 
 func main() {
