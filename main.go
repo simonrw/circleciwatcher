@@ -45,6 +45,8 @@ func main() {
 	}
 	wID := workflows[0].ID
 
+	log.Print("Waiting for workflow to finish")
+
 	for {
 		w, err := client.GetWorkflow(wID)
 		if err != nil {
